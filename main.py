@@ -7,7 +7,7 @@ import time
 def current_time():
     return datetime.now().strftime(r"%H:%M")
 def current_date():
-    return datetime.now().strftime(r"%Y-%m-%d")
+    return datetime.now().strftime(r"%d-%m-%Y")
     
 # Accessing Data from the Tasks File
 myTasksFile = r'C:\Users\aryan\OneDrive\Desktop\Software Development\Reminder-Application\Tasks.csv'
